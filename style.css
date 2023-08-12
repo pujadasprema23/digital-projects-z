@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.first-container{
+    background-color: rgb(63, 62, 62);
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.logo-photo{
+    width: 120px;
+    
+ 
+}
+.menu{
+    display: flex;
+}
+.menu-list{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.menu-list:hover{
+    color: blue;
+}
+.second-img{
+    width: 250px;
+}
+.second-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url("./images/background.png"),linear-gradient(45deg,#242424,#1a1616);
+    color: white;
+}
+.button{
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;;
+}
+.button:hover{
+    color: blue;
+}
+.main-text{
+    font-size: 50px;
+}
+.down-text{
+    margin-top: 10px;
+}
+.third-img{
+    width: 250px;
+}
+.third-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+    justify-content: space-around;
+}
+.about-us{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.two{
+    background-color: rgb(34, 34, 34);
+    margin-top: 20px;
+}
+.box{
+    width: 230px;
+    height: 290px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.box-img{
+    width: 70px;
+}
+.fourth-text{
+    margin-bottom: 15px;
+}
+.fourth-container{
+    display: flex;
+    justify-content: space-around;
+}
+.section-one{
+    background-image: url("./images/background.png"),linear-gradient(45deg,#181818,#1f1e1e);
+    color: white;
+    padding: 50px;
+}
+.one{
+    margin-bottom: 20px;
+}
+.fifth-container{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    background-image: url("./images/background.png"),linear-gradient(45deg,#000,#292828);
+    color: white;
+    height: 150px;
+}
+.logo-last{
+    width: 115px;  
+    margin-bottom: 40px;
+}
+.text{
+    margin-bottom: 30px;
+}
+.last-list{
+    margin-bottom: 10px;
+}
